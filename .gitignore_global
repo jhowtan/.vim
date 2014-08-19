@@ -1,0 +1,12 @@
+# Mac shit
+.DS_Store
+.ssh
+# Vim history files
+*.un~
+*.swp
+.vim/tmp
+.VimballRecord
+.vim/bundle
+
+# netrw history 
+.netrwhist

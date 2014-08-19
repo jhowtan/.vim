@@ -1,0 +1,23 @@
+[user]
+    name = Jonathan Tan
+    email = jhow.tan@gmail.com
+[credential]
+    helper = oskeychain
+[push]
+    default = simple
+[mergetool]
+    keepBackup = true
+[core]
+    excludesfile = /Users/jhowtan/.gitignore_global
+    editor = subl
+[format]
+    pretty = format:%h %s (%an, %ad)
+[alias]
+    st = status
+    p = push
+    pr = pull --rebase
+    pom = pull origin master
+    co = checkout
+    lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%Creset' --abbrev-commit
+[color]
+    ui = auto
