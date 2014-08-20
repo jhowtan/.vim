@@ -1,17 +1,12 @@
 # Installation
 
+Pretty much for my personal use anyway.
+
 In case of new machine / fresh install:
 
-    wget http://jhowt.com/mac-ninite.sh
+    curl --no-check-certificate http://jhowt.com/install.sh -O -  | sh
 
-Run the script:
-    ./mac-ninite.sh
-
-OR simply:
-    wget http://jhowt.com/mac-ninite.sh | sh
-
-
-Should take a while to get everything installed and loaded up.
+Or just clone this repo and run the **install.sh** script. Should take a while to get everything installed and loaded up.
 
 # Notes / Disclaimer
 
@@ -23,6 +18,13 @@ Should take a while to get everything installed and loaded up.
 6. Script *should work*
 7. If shit happens anyway just make sure you have a time machine ready.
 
-# Other
+# Thanks to
 
 Took inspiration from [ejamesc's](http://github.com/ejamesc) computer setup note (*as well as his bash settings*) to build this 'backup'.
+
+Some other very inspiring setup scripts for a fresh Mac include:
+
+*   [bkuhlmann's osx](https://github.com/bkuhlmann/osx)
+*   [mathiasbynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
+
+(I forked the osx dotfile from *mathiasbynens* just so OS X is slightly more friendly)
