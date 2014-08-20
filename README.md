@@ -1,4 +1,4 @@
-# System Configuration
+# Installation
 
 In case of new machine / fresh install:
 
