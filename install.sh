@@ -14,8 +14,8 @@ brew doctor
 
 brew install git
 # Replace username and email accordingly.
-git config --global user.name "jhowtan"
-git config --global user.email "jhow.tan@gmail.com"
+git config --global user.name "user"
+git config --global user.email "email"
 git config --global credential.helper osxkeychain
 echo "Git setup complete"
 # Install basic tools I use for my OS X machine
